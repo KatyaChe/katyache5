@@ -1,0 +1,38 @@
+<style>
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    font-family: Poiret One;
+    font-size: 32px;
+}
+.main {
+    display: flex;
+    border: 1px solid black;
+    min-height: 80vh;
+    flex-direction: column;
+    font-family: Poiret One;
+    font-size: 32px;
+    text-align: flex-end;
+}
+.more {
+    justify-content: flex-end;
+    text-align: justify;
+}
+.container {
+    display: flex;
+    border: rgb(70, 62, 62);
+    height: 220px;
+    width: 300px;
+    background-color: brown;
+    align-self: flex-end;
+    margin-right: 70px;
+    flex-direction: row;
+}
+.number {
+    display: flex;
+    align-self: center;
+    
+}
+</style>
