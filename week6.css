@@ -1,0 +1,71 @@
+
+.container {
+    display: grid;
+    height: 100vh;
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 15% 1fr 20%;
+}
+.header  {
+    background-color: cadetblue;
+    grid-column: 1/4;
+    
+}
+.sidebar {
+    display: grid;
+    background-color: crimson;
+}
+.main {
+    display: grid;
+background-color: darkkhaki;
+grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 30% 30%;
+    height: 100%;
+    grid-gap: 10px;
+}
+.footer {
+    display: grid;
+    background-color: darkorange;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+grid-gap: 10px;
+}
+.about1 {
+    background-color: rgb(233, 216, 60);
+    grid-column: 1/4;
+    margin: 10px;
+}
+.about2 {
+    background-color: rgb(182, 130, 175);
+    margin: 5px;
+}
+.about3 {
+    background-color: rgb(131, 124, 62);
+    margin: 5px;
+}
+.about4 {
+    background-color: rgb(73, 219, 207);
+    grid-column: 1/4;
+    margin: 5px;
+}
+.who1 {
+display: grid;
+margin: 10px;
+background-color: lightcoral;
+}
+.who2 {
+display: grid;
+margin: 10px;
+background-color: rgb(71, 61, 61);
+}
+.who3 {
+display: grid;
+margin: 10px;
+background-color: rgb(77, 156, 143);
+}
+.who4 {
+display: grid;
+background-color: rgb(68, 197, 68);
+margin: 10px;
+}
+
