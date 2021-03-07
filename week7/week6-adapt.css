@@ -1,4 +1,3 @@
-
 .container {
     display: grid;
     height: 100vh;
@@ -69,12 +68,6 @@ display: grid;
 background-color: rgb(68, 197, 68);
 margin: 10px;
 }
-
-
-
-
-
-
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .footer {display: none;}
     .sidebar {display: none;}
