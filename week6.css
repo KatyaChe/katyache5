@@ -8,6 +8,7 @@ grid-template-rows: 15% 1fr 20%;
 .header  {
     background-color: cadetblue;
     grid-column: 1/4;
+    max-width: 100%;
     
 }
 .sidebar {
@@ -20,7 +21,7 @@ background-color: darkkhaki;
 grid-template-columns: 50% 50%;
     grid-template-rows: 40% 30% 30%;
     height: 100%;
-    grid-gap: 10px;
+    grid-gap: 3px;
 }
 .footer {
     display: grid;
@@ -28,12 +29,12 @@ grid-template-columns: 50% 50%;
     grid-column: 1/4;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-grid-gap: 10px;
+grid-gap: 3px;
 }
 .about1 {
     background-color: rgb(233, 216, 60);
     grid-column: 1/4;
-    margin: 10px;
+    margin: 5px;
 }
 .about2 {
     background-color: rgb(182, 130, 175);
@@ -68,4 +69,11 @@ display: grid;
 background-color: rgb(68, 197, 68);
 margin: 10px;
 }
-
+            @media screen and (min-width: 280px) and (max-width: 767px) {
+                .footer {display: none;}
+                .sidebar {display: none;}
+.header {width: 75%;}
+            }
+                       @media screen and (min-width: 768px) and (max-width: 1024px) {
+ .header {width: 150%;}
+            }
