@@ -1,0 +1,52 @@
+.container-fluid {
+    border: 1px solid orangered;
+    height: ;
+}
+.row1  {
+    background-color: black;
+    height: 30px;
+color:  white;
+border-radius: 10px 10px 0 0; 
+}
+.row2 {
+    height: 300px;
+    width: 1200px;
+    background-color: rgb(224, 221, 221);
+    font-size: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+.row3 {
+    display: flex;
+    margin-left: 45px;
+    margin-right: 25px;
+    text-align: center;
+    
+}
+.col1 {
+    margin: 5px;
+    background: rgb(180, 180, 180);
+    height: 100px;
+}
+.row4 {
+    margin-left: 45px;
+    margin-right: 25px;
+    height: 250px;
+}
+.col2 {
+    margin: 5px;
+    text-align: center;
+}
+.text {
+    font-size: 15px;
+}
+.row5 {
+    background-color: black;
+    height: 50px;
+    border-radius: 0 0 10px 10px; 
+}
+.col4 {
+text-align: center; 
+}

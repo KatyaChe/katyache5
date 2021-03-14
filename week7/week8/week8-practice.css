@@ -1,0 +1,47 @@
+div {
+    border: 1px solid green;
+    background-color: red;
+}
+.container-fluid {
+    padding: ;
+}
+.row {
+    background-color: white;
+}
+.roww {
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.rowww {
+    height: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.col-12 {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.col-22 {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+}
+.col {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
